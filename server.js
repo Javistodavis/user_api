@@ -5,20 +5,20 @@ const PORT = process.env.PORT || 3000;
 // Sample JSON data array matching required attributes
 const users = [
   {
-    FirstName: "Juan",
-    LastName: "Dela Cruz",
+    FirstName: "John Davis",
+    LastName: "Sentillas",
     Email: "juan.delacruz@example.com",
     Password: "password123"
   },
   {
-    FirstName: "Maria",
-    LastName: "Santos",
+    FirstName: "James Cort",
+    LastName: "Lasconia",
     Email: "maria.santos@example.com",
     Password: "securepassword456"
   },
   {
-    FirstName: "John",
-    LastName: "Doe",
+    FirstName: "Novem",
+    LastName: "Grace",
     Email: "john.doe@example.com",
     Password: "mypassword789"
   }
