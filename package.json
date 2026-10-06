@@ -1,20 +1,25 @@
-[
-  {
-    "LastName": "Dela Cruz",
-    "FirstName": "Juan",
-    "Email": "juan.delacruz@example.com",
-    "Password": "password123"
+{
+  "name": "user-api",
+  "version": "1.0.0",
+  "description": "User API for Render deployment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
   },
-  {
-    "LastName": "Santos",
-    "FirstName": "Maria",
-    "Email": "maria.santos@example.com",
-    "Password": "securepassword456"
+  "dependencies": {
+    "express": "^4.19.2"
   },
-  {
-    "LastName": "Doe",
-    "FirstName": "John",
-    "Email": "john.doe@example.com",
-    "Password": "mypassword789"
-  }
-]
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Javistodavis/user_api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Javistodavis/user_api/issues"
+  },
+  "homepage": "https://github.com/Javistodavis/user_api#readme"
+}
